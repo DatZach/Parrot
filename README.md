@@ -7,6 +7,8 @@ I developed this tool because I could not find an functional equivilent on the m
 I sincerly hope that if you are suffering from an RSI that this repo proves useful for you.
 If it does, please consider contributing. I thought about selling this product but I cannot find it in my heart to charge people for their health and well-being.
 
+PLEASE UNDERSTAND THAT THIS REPO IS VERY MESSY AND IS NOT FINISHED! Again, this is a personal project and I work on it to suit my needs.
+
 ##### Currently Supported Languages and Environments
 * Windows
 * Visual Studio
@@ -20,7 +22,7 @@ If it does, please consider contributing. I thought about selling this product b
 Run the application as Administrator to ensure that keystrokes can be sent to privledged processes.
 Please refer to the Database directory for the full command sets and to extend as needed.
 
-* I will be providing a video of usage soon *
+[Demonstration Video](https://www.youtube.com/watch?v=wAnMbJbw468)
 
 ##### Example
 Open a file hello-world.js and write "console.write('hello world!');" and save.
