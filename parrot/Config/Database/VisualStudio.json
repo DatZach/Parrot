@@ -1,0 +1,163 @@
+﻿{
+    "Enabled": true,
+    "Commands": [
+        {
+            "Pattern": "pane create",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(q1)"
+                }
+            ]
+        },
+        {
+            "Pattern": "pane 1",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(q2)"
+                }
+            ]
+        },
+        {
+            "Pattern": "pane 2",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(q3)"
+                }
+            ]
+        },
+        {
+            "Pattern": "close",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(w)"
+                }
+            ]
+        },
+        {
+            "Pattern": "show solution",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(qs)"
+                }
+            ]
+        },
+        {
+            "Pattern": "show package manager",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(qn)"
+                }
+            ]
+        },
+        {
+            "Pattern": "show properties",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(qp)"
+                }
+            ]
+        },
+        {
+            "Pattern": "add new file",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^+(a)"
+                }
+            ]
+        },
+        {
+            "Pattern": "add existing file",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%+(a)"
+                }
+            ]
+        },
+        {
+            "Pattern": "sync",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^([s)"
+                }
+            ]
+        },
+        {
+            "Pattern": "save",
+            "TerminateDictation": true, 
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "^(s)"
+                }
+            ]
+        },
+        {
+            "Pattern": "open",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(t)"
+                }
+            ]
+        },
+        {
+            "Pattern": "rebuild",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^+(b)"
+                }
+            ]
+        },
+        {
+            "Pattern": "run",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^({F5})"
+                }
+            ]
+        },
+        {
+            "Pattern": "debug",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "({F5})"
+                }
+            ]
+        },
+        {
+            "Pattern": "definition",
+            "Context": { "Type": "Process", "Value": "devenv" },
+            "Actions": [{
+                "Type": "Keyboard",
+                "Key": "{F12}"
+            }]
+        }
+    ]
+}

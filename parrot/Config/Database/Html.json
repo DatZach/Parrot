@@ -1,0 +1,1644 @@
+﻿{
+    "Enabled":  false, 
+	"Commands": [{
+	        "Pattern": "speak mark up",
+	        "Actions": [{
+	                "Type": "SetContext",
+	                "Value": "Html"
+	            }
+	        ]
+	    }, {
+			"Pattern": "comment",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<!--  -->{LEFT 3}"
+				}
+			]
+		}, {
+			"Pattern": "DOCTYPE",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<!DOCTYPE>"
+				}
+			]
+		}, {
+			"Pattern": "anchor",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<a>"
+				}
+			]
+		}, {
+			"Pattern": "acronym",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<acronym>"
+				}
+			]
+		}, {
+			"Pattern": "address",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<address>"
+				}
+			]
+		}, {
+			"Pattern": "area",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<area>"
+				}
+			]
+		}, {
+			"Pattern": "article",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<article>"
+				}
+			]
+		}, {
+			"Pattern": "aside",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<aside>"
+				}
+			]
+		}, {
+			"Pattern": "audio",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<audio>"
+				}
+			]
+		}, {
+			"Pattern": "bold",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<b>"
+				}
+			]
+		}, {
+			"Pattern": "base",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<base>"
+				}
+			]
+		},{
+			"Pattern": "blockquote",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<blockquote>"
+				}
+			]
+		}, {
+			"Pattern": "body",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<body>"
+				}
+			]
+		}, {
+			"Pattern": "break",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<br>"
+				}
+			]
+		}, {
+			"Pattern": "button",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<button>"
+				}
+			]
+		}, {
+			"Pattern": "canvas",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<canvas>"
+				}
+			]
+		}, {
+			"Pattern": "caption",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<caption>"
+				}
+			]
+		}, {
+			"Pattern": "cite",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<cite>"
+				}
+			]
+		}, {
+			"Pattern": "code",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<code>"
+				}
+			]
+		}, {
+			"Pattern": "col",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<col>"
+				}
+			]
+		}, {
+			"Pattern": "colgroup",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<colgroup>"
+				}
+			]
+		}, {
+			"Pattern": "data",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<data>"
+				}
+			]
+		}, {
+			"Pattern": "datalist",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<datalist>"
+				}
+			]
+		}, {
+			"Pattern": "dd",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<dd>"
+				}
+			]
+		}, {
+			"Pattern": "del",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<del>"
+				}
+			]
+		}, {
+			"Pattern": "details",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<details>"
+				}
+			]
+		}, {
+			"Pattern": "define",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<dfn>"
+				}
+			]
+		}, {
+			"Pattern": "dialog",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<dialog>"
+				}
+			]
+		}, {
+			"Pattern": "div",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<div>"
+				}
+			]
+		}, {
+			"Pattern": "dl",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<dl>"
+				}
+			]
+		}, {
+			"Pattern": "dt",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<dt>"
+				}
+			]
+		}, {
+			"Pattern": "emphasis",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<em>"
+				}
+			]
+		}, {
+			"Pattern": "embed",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<embed>"
+				}
+			]
+		}, {
+			"Pattern": "field set",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<fieldset>"
+				}
+			]
+		}, {
+			"Pattern": "figure caption",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<figcaption>"
+				}
+			]
+		}, {
+			"Pattern": "figure",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<figure>"
+				}
+			]
+		}, {
+			"Pattern": "footer",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<footer>"
+				}
+			]
+		}, {
+			"Pattern": "form",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<form>"
+				}
+			]
+		}, {
+	        "Pattern": "header 1",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "<h1>"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "header 2",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "<h2>"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "header 3",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "<h3>"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "header 4",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "<h4>"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "header 5",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "<h5>"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "header 6",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "<h6>"
+	            }
+	        ]
+	    }, {
+			"Pattern": "head",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<head>"
+				}
+			]
+		}, {
+			"Pattern": "header",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<header>"
+				}
+			]
+		}, {
+			"Pattern": "horizontal rule",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<hr>"
+				}
+			]
+		}, {
+			"Pattern": "html",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<html>"
+				}
+			]
+		}, {
+			"Pattern": "italics",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<i>"
+				}
+			]
+		}, {
+			"Pattern": "eye frame",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<iframe>"
+				}
+			]
+		}, {
+			"Pattern": "image",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<img>"
+				}
+			]
+		}, {
+			"Pattern": "input",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<input>"
+				}
+			]
+		}, {
+			"Pattern": "inserted",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<ins>"
+				}
+			]
+		}, {
+			"Pattern": "keyboard",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<kbd>"
+				}
+			]
+		}, {
+			"Pattern": "label",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<label>"
+				}
+			]
+		}, {
+			"Pattern": "legend",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<legend>"
+				}
+			]
+		}, {
+			"Pattern": "item",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<li>"
+				}
+			]
+		}, {
+			"Pattern": "link",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<link>"
+				}
+			]
+		}, {
+			"Pattern": "main",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<main>"
+				}
+			]
+		}, {
+			"Pattern": "map",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<map>"
+				}
+			]
+		}, {
+			"Pattern": "mark",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<mark>"
+				}
+			]
+		}, {
+			"Pattern": "meta",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<meta>"
+				}
+			]
+		}, {
+			"Pattern": "meter",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<meter>"
+				}
+			]
+		}, {
+			"Pattern": "navigation",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<nav>"
+				}
+			]
+		}, {
+			"Pattern": "noframes",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<noframes>"
+				}
+			]
+		}, {
+			"Pattern": "noscript",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<noscript>"
+				}
+			]
+		}, {
+			"Pattern": "object",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<object>"
+				}
+			]
+		}, {
+			"Pattern": "ordered list",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<ol>"
+				}
+			]
+		}, {
+			"Pattern": "option group",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<optgroup>"
+				}
+			]
+		}, {
+			"Pattern": "option",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<option>"
+				}
+			]
+		}, {
+			"Pattern": "output",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<output>"
+				}
+			]
+		}, {
+			"Pattern": "paragraph",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<p>"
+				}
+			]
+		}, {
+			"Pattern": "param",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<param>"
+				}
+			]
+		}, {
+			"Pattern": "picture",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<picture>"
+				}
+			]
+		}, {
+			"Pattern": "pre",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<pre>"
+				}
+			]
+		}, {
+			"Pattern": "progress",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<progress>"
+				}
+			]
+		}, {
+			"Pattern": "quote",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<q>"
+				}
+			]
+		}, {
+			"Pattern": "ruby",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<ruby>"
+				}
+			]
+		}, {
+			"Pattern": "strike",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<s>"
+				}
+			]
+		}, {
+			"Pattern": "sample",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<samp>"
+				}
+			]
+		}, {
+			"Pattern": "script",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<script>"
+				}
+			]
+		}, {
+			"Pattern": "section",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<section>"
+				}
+			]
+		}, {
+			"Pattern": "select",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<select>"
+				}
+			]
+		}, {
+			"Pattern": "small",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<small>"
+				}
+			]
+		}, {
+			"Pattern": "source",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<source>"
+				}
+			]
+		}, {
+			"Pattern": "span",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<span>"
+				}
+			]
+		}, {
+			"Pattern": "strike",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<strike>"
+				}
+			]
+		}, {
+			"Pattern": "strong",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<strong>"
+				}
+			]
+		}, {
+			"Pattern": "style",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<style>"
+				}
+			]
+		}, {
+			"Pattern": "sub",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<sub>"
+				}
+			]
+		}, {
+			"Pattern": "summary",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<summary>"
+				}
+			]
+		}, {
+			"Pattern": "super",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<sup>"
+				}
+			]
+		}, {
+			"Pattern": "svg",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<svg>"
+				}
+			]
+		}, {
+			"Pattern": "table",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<table>"
+				}
+			]
+		}, {
+			"Pattern": "table body",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<tbody>"
+				}
+			]
+		}, {
+			"Pattern": "cell",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<td>"
+				}
+			]
+		}, {
+			"Pattern": "template",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<template>"
+				}
+			]
+		}, {
+			"Pattern": "text area",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<textarea>"
+				}
+			]
+		}, {
+			"Pattern": "table foot",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<tfoot>"
+				}
+			]
+		}, {
+			"Pattern": "header",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<th>"
+				}
+			]
+		}, {
+			"Pattern": "table header",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<thead>"
+				}
+			]
+		}, {
+			"Pattern": "time",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<time>"
+				}
+			]
+		}, {
+			"Pattern": "title",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<title>"
+				}
+			]
+		}, {
+			"Pattern": "row",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<tr>"
+				}
+			]
+		}, {
+			"Pattern": "track",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<track>"
+				}
+			]
+		}, {
+			"Pattern": "underline",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<u>"
+				}
+			]
+		}, {
+			"Pattern": "unordered list",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<ul>"
+				}
+			]
+		}, {
+			"Pattern": "var",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<var>"
+				}
+			]
+		}, {
+			"Pattern": "video",
+			"Context": {
+				"Type": "Context",
+				"Value": "Html"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "<video>"
+				}
+			]
+		},
+
+	    {
+	        "Pattern": "class",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "class"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "style",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "style"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "href",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "href"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "name",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "name"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "id",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "id"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "download",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "download"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "rel",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "rel"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "type",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "type"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "target",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "target"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "blank",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "blank"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "parent",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "parent"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "self",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "self"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "width",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "width"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "height",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "height"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "placeholder",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "placeholder"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "required",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "required"
+	            }
+	        ]
+	    },
+
+	    {
+	        "Pattern": "ang",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "ng"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "bind",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "bind"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "cloak",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "cloak"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "click",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "click"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "double click",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "doubleclick"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "hide",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "hide"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "show",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "show"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "if",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "if"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "key down",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "keydown"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "key press",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "keypress"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "model",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "model"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "mouse down",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "mousedown"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "mouse leave",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "mouseleave"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "mouse enter",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "mouseenter"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "mouse move",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "mousemove"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "mouse enter",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "mouseenter"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "on",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "on"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "options",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "options"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "pattern",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "pattern"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "repeat",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "repeat"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "source",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "src"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "value",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "value"
+	            }
+	        ]
+	    }, {
+	        "Pattern": "turkey",
+	        "Context": {
+	            "Type": "Context",
+	            "Value": "Html"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "tr-key"
+	            }
+	        ]
+	    }
+	]
+}

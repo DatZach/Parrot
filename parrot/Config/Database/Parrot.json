@@ -1,0 +1,29 @@
+{
+    "Enabled":  true, 
+    "Commands": [
+        {
+            "Pattern": "wake",
+            "Actions": [
+                {
+                    "Type": "EnableCommandEngine"
+                }
+            ]
+        },
+        {
+            "Pattern": "snore",
+            "Actions": [
+                {
+                    "Type": "DisableCommandEngine"
+                }
+            ]
+        },
+        {
+            "Pattern": "sleep",
+            "Actions": [
+                {
+                    "Type": "DisableCommandEngine"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+﻿{
+    "Enabled":  true, 
+	"Commands": [{
+			"Pattern": "pane 1",
+			"Context": {
+				"Type": "Process",
+				"Value": "Code"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "^(1)"
+				}
+			]
+		}, {
+			"Pattern": "pane 2",
+			"Context": {
+				"Type": "Process",
+				"Value": "Code"
+			},
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "^(2)"
+				}
+			]
+		}, {
+	        "Pattern": "pane 3",
+	        "Context": {
+	            "Type": "Process",
+	            "Value": "Code"
+	        },
+	        "Actions": [{
+	                "Type": "Keyboard",
+	                "Key": "^(3)"
+	            }
+	        ]
+	    }, {
+			"Pattern": "jump {x:number}+",
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "^(g)%x%{ENTER}{END}"
+				}
+			]
+		}, {
+	        "Pattern": "definition",
+	        "Context": { "Type": "Process", "Value": "Code" },
+	        "Actions": [{
+	            "Type": "Keyboard",
+	            "Key": "{F12}"
+	        }]
+	    }, {
+			"Pattern": "toggle bottom",
+			"Context": { "Type": "Process", "Value": "Code" },
+			"Actions": [{
+				"Type": "Keyboard",
+				"Key": "^(`)"
+			}]
+		}, {
+			"Pattern": "explorer",
+			"Context": { "Type": "Process", "Value": "Code" },
+			"Actions": [{
+				"Type": "Keyboard",
+				"Key": "^+(e)"
+			}]
+		}, {
+			"Pattern": "find in files",
+			"Context": { "Type": "Process", "Value": "Code" },
+			"Actions": [{
+				"Type": "Keyboard",
+				"Key": "^+(f)"
+			}]
+		}, {
+			"Pattern": "close left",
+			"Context": { "Type": "Process", "Value": "Code" },
+			"Actions": [{
+				"Type": "Keyboard",
+				"Key": "^(b)"
+			}]
+		}, {
+			"Pattern": "save",
+            "Context": { "Type": "Process", "Value": "Code" },
+			"TerminateDictation": true, 
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "^(s)"
+				}
+			]
+		}, {
+			"Pattern": "open",
+			"Context": { "Type": "Process", "Value": "Code" },
+			"Actions": [{
+					"Type": "Keyboard",
+					"Key": "^(p)"
+				}
+			]
+		},
+	    {
+	        "Pattern": "close",
+	        "Context": { "Type": "Process", "Value": "Code" },
+	        "Actions": [
+	            {
+	                "Type": "Keyboard",
+	                "Key": "^(w)"
+	            }
+	        ]
+	    },
+	    {
+	        "Pattern": "tab {n:number}",
+	        "Actions": [
+	            {
+	                "Type": "Keyboard",
+	                "Key": "%(%n%)"
+	            }
+	        ]
+	    }
+	]
+}

@@ -1,0 +1,640 @@
+﻿{
+    "Enabled": false, 
+    "Commands":  [
+        {
+            "Pattern": "execute",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{F5}"
+                }
+            ]
+        },
+        {
+            "Pattern": "debug",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{F6}"
+                }
+            ]
+        },
+        {
+            "Pattern": "help",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{F1}"
+                }
+            ]
+        },
+        {
+            "Pattern": "save",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(s)"
+                }
+            ]
+        },
+        {
+            "Pattern": "open",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(t)"
+                }
+            ]
+        },
+        {
+            "Pattern": "find",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(f)"
+                }
+            ]
+        },
+        {
+            "Pattern": "find in project",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^+(f)"
+                }
+            ]
+        },
+        {
+            "Pattern": "focus",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^%{ENTER}"
+                }
+            ]
+        },
+        {
+            "Pattern": "focus up",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^%{UP}"
+                }
+            ]
+        },
+        {
+            "Pattern": "focus down",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^%{DOWN}"
+                }
+            ]
+        },
+        {
+            "Pattern": "close",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(w)"
+                }
+            ]
+        },
+        {
+            "Pattern": "tab right",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^{PGDN}"
+                }
+            ]
+        },
+        {
+            "Pattern": "tab left",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^{PGUP}"
+                }
+            ]
+        },
+        {
+            "Pattern": "new sprite",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(s)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new sound",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(u)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new tile set",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(b)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new path",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(p)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new script",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(c)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new shader",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(a)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new font",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(f)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new timeline",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(t)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new object",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(o)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new room",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(r)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new included file",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(i)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new note",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(n)"
+                }
+            ]
+        },
+        {
+            "Pattern": "new extension",
+            "Context": { "Type": "Process", "Value": "GameMakerStudio" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%(e)"
+                }
+            ]
+        },
+
+        {
+            "Pattern": "speak game maker",
+            "Actions": [{
+                    "Type": "SetContext",
+                    "Value": "GML"
+                }
+            ]
+        }, {
+            "Pattern": "var",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "var "
+                }
+            ]
+        }, {
+            "Pattern": "semi",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": ";"
+                }
+            ]
+        }, {
+            "Pattern": "assign",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " = "
+                }
+            ]
+        }, {
+            "Pattern": "lesser",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " < "
+                }
+            ]
+        }, {
+            "Pattern": "great",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " > "
+                }
+            ]
+        }, {
+            "Pattern": "less equal",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " <= "
+                }
+            ]
+        }, {
+            "Pattern": "great equal",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " >= "
+                }
+            ]
+        }, {
+            "Pattern": "not equal",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " != "
+                }
+            ]
+        }, {
+            "Pattern": "equals",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " == "
+                }
+            ]
+        }, {
+            "Pattern": "plus",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " {+} "
+                }
+            ]
+        }, {
+            "Pattern": "minus",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " - "
+                }
+            ]
+        }, {
+            "Pattern": "multiply",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " * "
+                }
+            ]
+        }, {
+            "Pattern": "div",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " / "
+                }
+            ]
+        }, {
+            "Pattern": "mod",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " {%} "
+                }
+            ]
+        }, {
+            "Pattern": "ternary",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " ? "
+                }
+            ]
+        }, {
+            "Pattern": "increment",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "{+}{+}"
+                }
+            ]
+        }, {
+            "Pattern": "decrement",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "--"
+                }
+            ]
+        }, {
+            "Pattern": "plus assign",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " {+}= "
+                }
+            ]
+        }, 
+           
+        {
+            "Pattern": "return",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "return "
+                }
+            ]
+        }, {
+            "Pattern": "repeat",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "repeat {(}"
+                }
+            ]
+        }, {
+            "Pattern": "continue",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "continue"
+                }
+            ]
+        }, {
+            "Pattern": "break",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "break"
+                }
+            ]
+        }, {
+            "Pattern": "switch",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "switch {(}"
+                }
+            ]
+        }, {
+            "Pattern": "case",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "case :{LEFT}"
+                }
+            ]
+        }, {
+            "Pattern": "default",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "default:"
+                }
+            ]
+        }, {
+            "Pattern": "for",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "for {(}"
+                }
+            ]
+        }, {
+            "Pattern": "if",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "if {(}"
+                }
+            ]
+        }, {
+            "Pattern": "else",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "else"
+                }
+            ]
+        }, {
+            "Pattern": "while",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "while {(}"
+                }
+            ]
+        }, {
+            "Pattern": "do",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "do {{}"
+                }
+            ]
+        }, {
+            "Pattern": "until",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "until {(}"
+                }
+            ]
+        }, {
+            "Pattern": "exit",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "exit"
+                }
+            ]
+        }, {
+            "Pattern": "with",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "with {(}"
+                }
+            ]
+        },
+
+        {
+            "Pattern": "true",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "true"
+                }
+            ]
+        }, {
+            "Pattern": "false",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "false"
+                }
+            ]
+        }, {
+            "Pattern": "self",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "self"
+                }
+            ]
+        }, {
+            "Pattern": "other",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "other"
+                }
+            ]
+        }, {
+            "Pattern": "all",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "all"
+                }
+            ]
+        }, {
+            "Pattern": "none",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "noone"
+                }
+            ]
+        }, {
+            "Pattern": "global",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "global"
+                }
+            ]
+        }, {
+            "Pattern": "macro",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "#macro "
+                }
+            ]
+        }, {
+            "Pattern": "argument",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "argument"
+                }
+            ]
+        },
+        
+        {
+            "Pattern": "comment",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "// "
+                }
+            ]
+        }, {
+            "Pattern": "open comment",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "/*"
+                }
+            ]
+        }, {
+            "Pattern": "close comment",
+            "Context": { "Type": "Context", "Value": "GML" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "*/"
+                }
+            ]
+        }
+    ] 
+}

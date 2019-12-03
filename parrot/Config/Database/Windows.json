@@ -1,0 +1,64 @@
+﻿{
+    "Enabled": true, 
+    "Commands":  [
+        {
+            "Pattern": "file system",
+            "Actions": [
+                {
+                    "Type": "ExecuteShell",
+                    "Path": "C:\\Windows\\explorer.exe"
+                }
+            ]
+        },
+        {
+            "Pattern": "address",
+            "Context": { "Type": "Process", "Value": "explorer" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{F4}^(a)"
+                }
+            ]
+        },
+        {
+            "Pattern": "go",
+            "Context": { "Type": "Process", "Value": "explorer" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{ENTER}"
+                }
+            ]
+        },
+        {
+            "Pattern": "back",
+            "Context": { "Type": "Process", "Value": "explorer" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{BACKSPACE}"
+                }
+            ]
+        },
+        {
+            "Pattern": "delete",
+            "Context": { "Type": "Process", "Value": "explorer" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+{DELETE}"
+                }
+            ]
+        },
+        {
+            "Pattern": "copy path",
+            "Context": { "Type": "Process", "Value": "explorer" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+({F10})a"
+                }
+            ]
+        }
+    ] 
+}

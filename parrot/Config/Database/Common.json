@@ -1,0 +1,995 @@
+﻿{
+    "Enabled":  true, 
+    "Commands": [
+        {
+            "Pattern": "menu",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+{F10}"
+                }
+            ]
+        },
+        {
+            "Pattern": "rename",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{F2}"
+                }
+            ]
+        },
+        {
+            "Pattern": "find",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(f)"
+                }
+            ]
+        },
+        {
+            "Pattern": "show last",
+            "Actions": [
+                {
+                    "Type": "SetForegroundProcess",
+                    "Method": "Last"
+                }
+            ]
+        },
+        {
+            "Pattern": "show {keyword:word}",
+            "Actions": [
+                {
+                    "Type": "SetForegroundProcess",
+                    "Method": "Keywords",
+                    "Keywords": "%keyword%"
+                }
+            ]
+        },
+        {
+            "Pattern": "snap left",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{WIN}{LEFT}"
+                }
+            ]
+        },
+        {
+            "Pattern": "snap right",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{WIN}{RIGHT}"
+                }
+            ]
+        },
+        {
+            "Pattern": "snap up",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{WIN}{UP}"
+                }
+            ]
+        },
+        {
+            "Pattern": "snap down",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{WIN}{DOWN}"
+                }
+            ]
+        },
+        {
+            "Pattern": "yank",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{END}+{HOME}{BACKSPACE}"
+                }
+            ]
+        },
+        {
+            "Pattern": "undo",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(z)"
+                }
+            ]
+        },
+        {
+            "Pattern": "redo",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(y)"
+                }
+            ]
+        },
+        {
+            "Pattern": "drop",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{ENTER}"
+                }
+            ]
+        },
+        {
+            "Pattern": "sub {repeat:number}?",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{BACKSPACE}"
+                }
+            ]
+        },
+        {
+            "Pattern": "delete {repeat:number}?",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{DELETE}"
+                }
+            ]
+        },
+        {
+            "Pattern": "whip {repeat:number}?",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^{BACKSPACE}"
+                }
+            ]
+        },
+        {
+            "Pattern": "dismiss",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{ESCAPE}"
+                }
+            ]
+        },
+        {
+            "Pattern": "beep {repeat:number}?",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^{LEFT}"
+                }
+            ]
+        },
+        {
+            "Pattern": "skoot {repeat:number}?",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^{RIGHT}"
+                }
+            ]
+        },
+        {
+            "Pattern": "paste",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(v)"
+                }
+            ]
+        },
+        {
+            "Pattern": "copy",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(c)"
+                }
+            ]
+        },
+        {
+            "Pattern": "cut",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(x)"
+                }
+            ]
+        },
+        {
+            "Pattern": "select word",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^{LEFT}^+{RIGHT}"
+                }
+            ]
+        },
+        {
+            "Pattern": "select line",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{END}+{HOME}"
+                }
+            ]
+        },
+        {
+            "Pattern": "select {x:number} lines",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{HOME}+{DOWN %x%}+{END}"
+                }
+            ]
+        },
+        {
+            "Pattern": "select left {x:number}",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+^{LEFT %x%}"
+                }
+            ]
+        },
+        {
+            "Pattern": "select right {x:number}",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+^{RIGHT %x%}"
+                }
+            ]
+        },
+        {
+            "Pattern": "select home",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+{HOME}"
+                }
+            ]
+        },
+        {
+            "Pattern": "select end",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+{END}"
+                }
+            ]
+        },
+        {
+            "Pattern": "select all",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(a)"
+                }
+            ]
+        },
+        {
+            "Pattern": "select top",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+^({HOME})"
+                }
+            ]
+        },
+        {
+            "Pattern": "select bottom",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+^({END})"
+                }
+            ]
+        },
+        {
+            "Pattern": "up {repeat:number}+",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{UP}"
+                }
+            ]
+        },
+        {
+            "Pattern": "down {repeat:number}+",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{DOWN}"
+                }
+            ]
+        },
+        {
+            "Pattern": "right {repeat:number}+",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{RIGHT}"
+                }
+            ]
+        },
+        {
+            "Pattern": "left {repeat:number}+",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{LEFT}"
+                }
+            ]
+        },
+        {
+            "Pattern": "home",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{HOME}"
+                }
+            ]
+        },
+        {
+            "Pattern": "end",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{END}"
+                }
+            ]
+        },
+        {
+            "Pattern": "bottom",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^{END}"
+                }
+            ]
+        },
+        {
+            "Pattern": "top",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^{HOME}"
+                }
+            ]
+        },
+        {
+            "Pattern": "push",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{TAB}"
+                }
+            ]
+        },
+        {
+            "Pattern": "pull",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "+{TAB}"
+                }
+            ]
+        },
+        {
+            "Pattern": "space",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " "
+                }
+            ]
+        },
+
+        {
+            "Pattern": "snake {value:word}+",
+            "TerminateDictation": true, 
+            "Actions": [{
+                    "Type": "FormatIdentifier",
+                    "Style": "Snake"
+                }
+            ]
+        }, {
+            "Pattern": "cobra {value:word}+",
+            "TerminateDictation": true, 
+            "Actions": [{
+                    "Type": "FormatIdentifier",
+                    "Style": "ShoutingSnake"
+                }
+            ]
+        }, {
+            "Pattern": "camel {value:word}+",
+            "TerminateDictation": true, 
+            "Actions": [{
+                    "Type": "FormatIdentifier",
+                    "Style": "Camel"
+                }
+            ]
+        }, {
+            "Pattern": "pascal {value:word}+",
+            "TerminateDictation": true, 
+            "Actions": [{
+                    "Type": "FormatIdentifier",
+                    "Style": "Pascal"
+                }
+            ]
+        }, {
+            "Pattern": "skew {value:word}+",
+            "TerminateDictation": true, 
+            "Actions": [{
+                    "Type": "FormatIdentifier",
+                    "Style": "Stick"
+                }
+            ]
+        },
+        
+        {
+            "Pattern": "number {x:number}+",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%x%"
+                }
+            ]
+        },
+        {
+            "Pattern": "alpha",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "a"
+                }
+            ]
+        },
+        {
+            "Pattern": "bravo",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "b"
+                }
+            ]
+        },
+        {
+            "Pattern": "charlie",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "c"
+                }
+            ]
+        },
+        {
+            "Pattern": "delta",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "d"
+                }
+            ]
+        },
+        {
+            "Pattern": "echo",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "e"
+                }
+            ]
+        },
+        {
+            "Pattern": "foxtrot",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "f"
+                }
+            ]
+        },
+        {
+            "Pattern": "golf",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": ""
+                }
+            ]
+        },
+        {
+            "Pattern": "gaster",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "g"
+                }
+            ]
+        },
+        {
+            "Pattern": "hotel",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "h"
+                }
+            ]
+        },
+        {
+            "Pattern": "india",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "i"
+                }
+            ]
+        },
+        {
+            "Pattern": "juliett",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "j"
+                }
+            ]
+        },
+        {
+            "Pattern": "kilo",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "k"
+                }
+            ]
+        },
+        {
+            "Pattern": "lima",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "l"
+                }
+            ]
+        },
+        {
+            "Pattern": "mike",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "m"
+                }
+            ]
+        },
+        {
+            "Pattern": "november",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "n"
+                }
+            ]
+        },
+        {
+            "Pattern": "oscar",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "o"
+                }
+            ]
+        },
+        {
+            "Pattern": "papa",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "p"
+                }
+            ]
+        },
+        {
+            "Pattern": "quebec",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "q"
+                }
+            ]
+        },
+        {
+            "Pattern": "romeo",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "r"
+                }
+            ]
+        },
+        {
+            "Pattern": "sierra",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "s"
+                }
+            ]
+        },
+        {
+            "Pattern": "tango",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "t"
+                }
+            ]
+        },
+        {
+            "Pattern": "uniform",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "u"
+                }
+            ]
+        },
+        {
+            "Pattern": "victor",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "v"
+                }
+            ]
+        },
+        {
+            "Pattern": "whiskey",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "w"
+                }
+            ]
+        },
+        {
+            "Pattern": "xray",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "x"
+                }
+            ]
+        },
+        {
+            "Pattern": "yankee",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "y"
+                }
+            ]
+        },
+        {
+            "Pattern": "zulu",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "z"
+                }
+            ]
+        },
+        {
+            "Pattern": "dot",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "."
+                }
+            ]
+        },
+        {
+            "Pattern": "dash",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "-"
+                }
+            ]
+        },
+        {
+            "Pattern": "bite",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": ": "
+                }
+            ]
+        },
+        {
+            "Pattern": "low dash",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "_"
+                }
+            ]
+        },
+        {
+            "Pattern": "comma",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": ","
+                }
+            ]
+        },
+        {
+            "Pattern": "scribe {value:word}+",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%value%"
+                }
+            ]
+        },
+        {
+            "Pattern": "len",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{(}"
+                }
+            ]
+        },
+        {
+            "Pattern": "ren",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{)}"
+                }
+            ]
+        },
+        {
+            "Pattern": "lace",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{{}"
+                }
+            ]
+        },
+        {
+            "Pattern": "race",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{}}"
+                }
+            ]
+        },
+        {
+            "Pattern": "lack",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "["
+                }
+            ]
+        },
+        {
+            "Pattern": "rack",
+            "TerminateDictation": true,
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "]"
+                }
+            ]
+        },
+        {
+            "Pattern": "leanne",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "<"
+                }
+            ]
+        },
+        {
+            "Pattern": "gran",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": ">"
+                }
+            ]
+        },
+        {
+            "Pattern": "shank",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "$"
+                }
+            ]
+        },
+        {
+            "Pattern": "bang",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "!"
+                }
+            ]
+        },
+        {
+            "Pattern": "tilt",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "/"
+                }
+            ]
+        },
+        {
+            "Pattern": "back tilt",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "\\"
+                }
+            ]
+        },
+        {
+            "Pattern": "at",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "@"
+                }
+            ]
+        },
+        {
+            "Pattern": "hash",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "#"
+                }
+            ]
+        },
+        {
+            "Pattern": "percent",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{%}"
+                }
+            ]
+        },
+        {
+            "Pattern": "carrot",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{^}"
+                }
+            ]
+        },
+        {
+            "Pattern": "ampersand",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "&"
+                }
+            ]
+        },
+        {
+            "Pattern": "tilde",
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{~}"
+                }
+            ]
+        },
+        {
+            "Pattern": "quote",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "'"
+                }
+            ]
+        },
+        {
+            "Pattern": "dote",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "\""
+                }
+            ]
+        },
+        {
+            "Pattern": "equal",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "="
+                }
+            ]
+        },
+        {
+            "Pattern": "deku",
+            "TerminateDictation": true, 
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "|"
+                }
+            ]
+        }
+    ]
+}

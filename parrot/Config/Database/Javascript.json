@@ -1,0 +1,798 @@
+﻿{
+    "Enabled": true,
+    "Commands": [
+        {
+            "Pattern": "speak java script",
+            "Actions": [
+                {
+                    "Type": "SetContext",
+                    "Value": "Javascript"
+                }
+            ]
+        },
+        {
+            "Pattern": "vim",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "vm"
+                }
+            ]
+        },
+        {
+            "Pattern": "this",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "this"
+                }
+            ]
+        },
+        {
+            "Pattern": "function",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "function "
+                }
+            ]
+        },
+        {
+            "Pattern": "const",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "const "
+                }
+            ]
+        },
+        {
+            "Pattern": "let",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "let "
+                }
+            ]
+        },
+        {
+            "Pattern": "semi",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": ";"
+                }
+            ]
+        },
+        {
+            "Pattern": "assign",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " = "
+                }
+            ]
+        },
+        {
+            "Pattern": "lesser than",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " < "
+                }
+            ]
+        },
+        {
+            "Pattern": "greater than",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " > "
+                }
+            ]
+        },
+        {
+            "Pattern": "lesser than equal",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " <= "
+                }
+            ]
+        },
+        {
+            "Pattern": "greater than equal",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " >= "
+                }
+            ]
+        },
+        {
+            "Pattern": "not equal",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " !== "
+                }
+            ]
+        },
+        {
+            "Pattern": "equals",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " === "
+                }
+            ]
+        },
+        {
+            "Pattern": "double equals",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " == "
+                }
+            ]
+        },
+        {
+            "Pattern": "return",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "return"
+                }
+            ]
+        },
+        {
+            "Pattern": "continue",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "continue"
+                }
+            ]
+        },
+        {
+            "Pattern": "break",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "break"
+                }
+            ]
+        },
+        {
+            "Pattern": "grave",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "`"
+                }
+            ]
+        },
+        {
+            "Pattern": "plus",
+            "TerminateDictation": true,
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " {+} "
+                }
+            ]
+        },
+        {
+            "Pattern": "increment",
+            "TerminateDictation": true,
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{+}{+}"
+                }
+            ]
+        },
+        {
+            "Pattern": "decrement",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "--"
+                }
+            ]
+        },
+        {
+            "Pattern": "minus",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " - "
+                }
+            ]
+        },
+        {
+            "Pattern": "times",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " * "
+                }
+            ]
+        },
+        {
+            "Pattern": "divide",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " / "
+                }
+            ]
+        },
+        {
+            "Pattern": "modulo",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " {%} "
+                }
+            ]
+        }, {
+            "Pattern": "plus assign",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " {+}= "
+                }
+            ]
+        }, {
+            "Pattern": "minus assign",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " -= "
+                }
+            ]
+        }, {
+            "Pattern": "times assign",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " *= "
+                }
+            ]
+        }, {
+            "Pattern": "divide assign",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " /= "
+                }
+            ]
+        }, {
+            "Pattern": "modulo assign",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " {%}= "
+                }
+            ]
+        }, {
+            "Pattern": "or assign",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " |= "
+                }
+            ]
+        }, {
+            "Pattern": "and assign",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": " &= "
+                }
+            ]
+        },
+        {
+            "Pattern": "state switch",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "switch {(}"
+                }
+            ]
+        },
+        {
+            "Pattern": "case",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "case :{LEFT}"
+                }
+            ]
+        },
+        {
+            "Pattern": "default",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "default:"
+                }
+            ]
+        },
+        {
+            "Pattern": "state for",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "for {(}"
+                }
+            ]
+        },
+        {
+            "Pattern": "state if",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "if {(}"
+                }
+            ]
+        },
+        {
+            "Pattern": "state else",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "else"
+                }
+            ]
+        },
+        {
+            "Pattern": "state while",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "while {(}"
+                }
+            ]
+        },
+        {
+            "Pattern": "state do",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "do {{}"
+                }
+            ]
+        },
+        {
+            "Pattern": "null",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "null"
+                }
+            ]
+        },
+        {
+            "Pattern": "undefined",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "undefined"
+                }
+            ]
+        },
+        {
+            "Pattern": "new",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "new"
+                }
+            ]
+        },
+        {
+            "Pattern": "state finally",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "finally"
+                }
+            ]
+        },
+        {
+            "Pattern": "state in",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " in "
+                }
+            ]
+        },
+        {
+            "Pattern": "state of",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " of "
+                }
+            ]
+        },
+        {
+            "Pattern": "state or",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " || "
+                }
+            ]
+        },
+        {
+            "Pattern": "state also",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " && "
+                }
+            ]
+        },
+        {
+            "Pattern": "instance of",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " instanceof "
+                }
+            ]
+        },
+        {
+            "Pattern": "throw",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "throw "
+                }
+            ]
+        },
+        {
+            "Pattern": "type of",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "typeof "
+                }
+            ]
+        },
+        {
+            "Pattern": "true",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "true"
+                }
+            ]
+        },
+        {
+            "Pattern": "false",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "false"
+                }
+            ]
+        },
+        {
+            "Pattern": "lam",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{(}{)}"
+                }
+            ]
+        },
+        {
+            "Pattern": "shoot",
+            "TerminateDictation": true, 
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " => "
+                }
+            ]
+        },
+        {
+            "Pattern": "comment",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "// "
+                }
+            ]
+        },
+        {
+            "Pattern": "open comment",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "/*"
+                }
+            ]
+        },
+        {
+            "Pattern": "close comment",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "*/"
+                }
+            ]
+        },
+        {
+            "Pattern": "ternary",
+            "Context": {
+                "Type": "Context",
+                "Value": "Javascript"
+            },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": " ? "
+                }
+            ]
+        }
+    ]
+}

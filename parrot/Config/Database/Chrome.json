@@ -1,0 +1,145 @@
+﻿{
+    "Enabled":  true, 
+    "Commands": [
+        {
+            "Pattern": "show chrome",
+            "Actions": [
+                {
+                    "Type": "SetForegroundProcess",
+                    "Method": "ProcessName",
+                    "ProcessName": "chrome" 
+                }
+            ]
+        },
+        {
+            "Pattern": "debugger",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{F12}"
+                }
+            ]
+        },
+        {
+            "Pattern": "refresh",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^{F5}"
+                }
+            ]
+        },
+        {
+            "Pattern": "new tab",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(t)"
+                }
+            ]
+        },
+        {
+            "Pattern": "tab {n:number}",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(%n%)"
+                }
+            ]
+        },
+        {
+            "Pattern": "back",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "%{LEFT}"
+                }
+            ]
+        },
+        {
+            "Pattern": "google",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "www.google.com{ENTER}"
+                }
+            ]
+        },
+        {
+            "Pattern": "next",
+            "TerminateDictation": true, 
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{TAB}"
+                }
+            ]
+        },
+        {
+            "Pattern": "click {ident:word}+",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(f)%ident%{ESCAPE}{ENTER}"
+                }
+            ]
+        },
+        {
+            "Pattern": "step",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{F10}"
+                }
+            ]
+        },
+        {
+            "Pattern": "continue",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "{F8}"
+                }
+            ]
+        },
+        {
+            "Pattern": "break point",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(b)"
+                }
+            ]
+        },
+        {
+            "Pattern": "open",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [{
+                    "Type": "Keyboard",
+                    "Key": "^(p)"
+                }
+            ]
+        },
+        {
+            "Pattern": "close",
+            "Context": { "Type": "Process", "Value": "chrome" },
+            "Actions": [
+                {
+                    "Type": "Keyboard",
+                    "Key": "^(w)"
+                }
+            ]
+        }
+    ]
+}
